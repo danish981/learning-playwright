@@ -12,7 +12,6 @@
 
 // const {hello, helloWorld} = require("./demo/methods.js")
 
-
 // import {hello, helloWorld} from "./demo/methods"
 // calling the methods that are imported / required from the demo/methods file
 
@@ -23,18 +22,4 @@ test('first test', async ({page}) => {
     await page.goto('https://www.google.com/')
     await expect(page).toHaveTitle("Google")
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
